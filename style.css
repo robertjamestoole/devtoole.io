@@ -1,0 +1,97 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sections {
+  height: 70vh;
+}
+
+.jumbotron {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(https://images.unsplash.com/photo-1558174685-430919a96c8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.hrStyle {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.card-img-top {
+  max-height: 20vh;
+}
+
+.opacity {
+  transition: 0.5s ease-in-out;
+}
+
+.opacity:hover {
+  opacity: 0.7;
+}
+
+.bootstrapSVG {
+  fill: #563d7c;
+}
+
+.top-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0 1%;
+  min-width: 40px;
+  margin-bottom: 2%;
+  z-index: 2;
+}
+
+.top-link .show {
+  display: block;
+}
+
+.top-link .hide {
+  display: none;
+}
+
+.contactSection {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(https://images.unsplash.com/photo-1455612693675-112974d4880b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contactCard {
+  height: 50vh;
+}
+
+.footer {
+  width: 20%;
+  max-width: 600px;
+}
+
+.footer i {
+  font-size: 2rem;
+}
