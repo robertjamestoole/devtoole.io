@@ -7,7 +7,8 @@ html {
 }
 
 .sections {
-  height: 70vh;
+  /* height: 70vh; */
+  height: 1000px;
 }
 
 .jumbotron {
@@ -38,7 +39,8 @@ html {
 }
 
 .card-img-top {
-  max-height: 20vh;
+  /* max-height: 20vh; */
+  max-height: 280px;
 }
 
 .opacity {
@@ -84,7 +86,8 @@ html {
 }
 
 .contactCard {
-  height: 50vh;
+  /* height: 50vh; */
+  height: 600px;
 }
 
 .footer {
@@ -94,4 +97,13 @@ html {
 
 .footer i {
   font-size: 2rem;
+}
+
+@media (max-width: 720px) {
+  #about {
+    font-size: 3rem;
+  }
+  #githubProfilePic {
+    width: 300px;
+  }
 }
