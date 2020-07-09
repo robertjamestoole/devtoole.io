@@ -431,7 +431,7 @@
       <div class="container-xl bg-white rounded py-4">
         <h2 class="display-3 text-center text-info font-weight-bold">Get In Touch</h2>
         <p class="text-center">For business inquiries, general questions or project comments please leave your information and I'll be sure to respond.</p>
-        <form method="POST" data-netlify="true">
+        <form method="POST" data-netlify="true" name="contact">
           <div class="form-row">
             <div class="form-group col-sm-6">
               <input type="text" class="form-control" placeholder="First Name" name="firstName" required pattern="[A-Za-z]{1,32}">
@@ -446,7 +446,7 @@
             </div>
               <div class="form-group">
                 <label for="messageArea text-warning">Message</label>
-                <textarea class="form-control" id="messageArea" rows="3" required></textarea>
+                <textarea class="form-control" id="messageArea" name="message" rows="3" required></textarea>
               </div>
             <button type="submit" class="btn btn-primary">Send</button>
           </div>
